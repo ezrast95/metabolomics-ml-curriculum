@@ -1,0 +1,13 @@
+# Week 1 — PyTorch basics
+torch
+numpy
+jupyter
+matplotlib
+
+# Week 2 — first spectral encoder on GNPS
+pandas
+matchms
+wandb
+
+# Add new packages below as weeks progress.
+# Pin versions once the Week 8–10 build sprint begins.

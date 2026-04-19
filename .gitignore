@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.Python
+build/
+dist/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (never commit raw data)
+data/
+*.mzML
+*.mzXML
+*.mgf
+*.raw
+*.parquet
+*.hdf5
+*.h5
+*.sqlite
+
+# Model checkpoints and logs
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+lightning_logs/
+wandb/
+mlruns/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets
+.env
+*.key
+secrets.yaml
