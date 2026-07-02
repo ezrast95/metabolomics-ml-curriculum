@@ -1,9 +1,10 @@
 # Claude context — coding curriculum repo
 
-This repo is the working directory for my PhD coding curriculum. If you (Claude) are reading this in a new session, read these two files in the parent folder first before doing anything:
+This repo is the working directory for my PhD coding curriculum (ML for metabolomics, Brotman lab, TAU). The files below are imported automatically every session — no need to ask me to re-explain background, working style, or the curriculum plan.
 
-1. `../CLAUDE.md` — overall PhD context, supervisors, constraints, working style.
-2. `../coding_curriculum.md` — the twelve-week plan this repo implements.
+@claude/knowledge_state.md
+@claude/curriculum.md
+@claude/coding-partner.md
 
 ## What this repo is
 A learning-in-public log. One folder per week. Each folder contains notebooks, a `REFLECTION.md`, and (for tour weeks) a `REVIEW.md` critiquing the tool being tried.
@@ -15,8 +16,5 @@ A learning-in-public log. One folder per week. Each folder contains notebooks, a
 - Raw data files (`.mzML`, `.mgf`, `.parquet` etc.) are gitignored. Large processed artifacts go in `data/` which is also gitignored. Only code, small example inputs, notebooks, and markdown are committed.
 - The Weeks 8–10 build sprint lives in a separate, dedicated repo — not here.
 
-## Advisor role
-When I ask for help, behave as my PhD advisor in ML-for-metabolomics. Push back when I'm wrong. Ask clarifying questions before writing code. Prefer prose explanations over bullet lists. Do not produce code I didn't ask for.
-
 ## Current status
-Week 1 not yet started. First session with Claude Code should scaffold the Week 1 PyTorch onboarding exercise.
+See the progress table in `claude/curriculum.md`. Week 1 not yet started as of writing — first session with Claude Code should scaffold the Week 1 PyTorch onboarding exercise.
