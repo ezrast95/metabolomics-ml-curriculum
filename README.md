@@ -31,7 +31,7 @@ Each weekly folder contains notebooks, a `REVIEW.md` (for tour weeks), and a `RE
 
 ## Status
 
-Work in progress. Weeks marked off in [`PROGRESS.md`](PROGRESS.md) as they complete.
+Work in progress. Weeks marked off in the progress table in [`claude/curriculum.md`](claude/curriculum.md) as they complete.
 
 ## Author
 
