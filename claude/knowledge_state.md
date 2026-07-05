@@ -21,7 +21,9 @@ Concepts from Ng's courses were taught in TensorFlow. Most architectures are und
 
 **Python** — comfortable.
 
-**PyTorch** — has seen a training loop, `Dataset`/`DataLoader`, `nn.Module`. Has never written one from scratch without examples. Needs hands-on reps before the fundamentals are durable.
+**PyTorch** — section 1 complete. Has implemented the full pipeline from scratch on ESOL (Morgan fingerprints → MLP regression): custom `Dataset` and `DataLoader`, `nn.Module` with `__init__` and `forward`, the training loop (forward pass → loss → `backward()` → `optimizer.step()` → `zero_grad()`), a separate validation loop, loss curve visualisation, and checkpoint save/load. Can reproduce this unaided.
+
+Gaps: the variety of loss functions and metrics (MSE, RMSE, MAE, R²) is not yet solid — knows how to use them but not the tradeoffs. First contact with HuggingFace `datasets` — understands basic structure but not fluent yet.
 
 **TensorFlow** — used in Ng's courses. Not the target stack for PhD work.
 
@@ -49,6 +51,7 @@ Exploring the coverage bias / distribution shift problem in MS annotation as a c
 
 ## What to calibrate to in new sessions
 
-- Don't assume PyTorch fluency — Ezra has seen it but not built with it yet.
+- PyTorch basics are in place — can read and write a standard training pipeline. Don't re-explain Dataset/DataLoader/nn.Module from scratch, but do probe the gaps above before assuming mastery.
+- Loss functions and regression metrics (MSE vs RMSE vs MAE vs R²) are still fuzzy — worth revisiting if they come up.
 - Don't skip to research implications before checking understanding of the underlying paper math/method.
 - The coverage bias problem is the current leading thread — but ideas are still being explored, not locked in.

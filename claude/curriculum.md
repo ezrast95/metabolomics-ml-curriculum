@@ -56,7 +56,7 @@ Each week, a `REFLECTION.md` in the week's folder with three short sections: wha
 
 | Week | Topic | Status | Completed |
 |------|-------|--------|-----------|
-| 1    | PyTorch onboarding | Not started | — |
+| 1    | PyTorch onboarding | Complete | 2026-07-05 |
 | 2    | First spectral encoder on GNPS | Not started | — |
 | 3    | Tour: DreaMS | Not started | — |
 | 4    | Tour: MIST + Lightning migration | Not started | — |
@@ -69,4 +69,4 @@ Each week, a `REFLECTION.md` in the week's folder with three short sections: wha
 Update this table as weeks complete. Keep short dated notes below for anything a status cell can't capture (slippage, scope changes, blockers).
 
 ### Update log
-_Week 1 (YYYY-MM-DD)_: fill in upon completion.
+_Section 1 (2026-07-05)_: Complete. MLP regression on ESOL dataset. Full pipeline from scratch: Dataset, DataLoader, nn.Module, training loop, validation loop, checkpoint, loss curve visualisation. Gaps: loss/metric variety not yet solid, HuggingFace datasets only first contact.

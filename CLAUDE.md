@@ -7,14 +7,13 @@ This repo is the working directory for my PhD coding curriculum (ML for metabolo
 @claude/coding-partner.md
 
 ## What this repo is
-A learning-in-public log. One folder per week. Each folder contains notebooks, a `REFLECTION.md`, and (for tour weeks) a `REVIEW.md` critiquing the tool being tried.
+A learning-in-public log. One folder per section. Each folder contains a README.md file explaining the assignment of the section, jupyter notebooks implementing the assignmnet.
 
 ## Working rules inside this repo
-- Commit every week's work to `main`. Commits use plain English messages.
-- Do not introduce Lightning before Week 4. Do not introduce wandb before Week 2. The curriculum orders these deliberately.
-- Tour weeks (3–6) must include a dataset-interrogation block — what was the model trained on, which libraries, which splits, which biases. This is not optional.
+- Commit every section's work to `main`. Commits use plain English messages.
+- Do not introduce Lightning before section 4. Do not introduce wandb before section 2. The curriculum orders these deliberately.
+- Tour sections (3–6) must include a dataset-interrogation block — what was the model trained on, which libraries, which splits, which biases. This is not optional.
 - Raw data files (`.mzML`, `.mgf`, `.parquet` etc.) are gitignored. Large processed artifacts go in `data/` which is also gitignored. Only code, small example inputs, notebooks, and markdown are committed.
-- The Weeks 8–10 build sprint lives in a separate, dedicated repo — not here.
 
 ## Current status
-See the progress table in `claude/curriculum.md`. Week 1 not yet started as of writing — first session with Claude Code should scaffold the Week 1 PyTorch onboarding exercise.
+See the progress table in `claude/curriculum.md`. section 1 not yet started as of writing — first session with Claude Code should scaffold the section 1 PyTorch onboarding exercise.
