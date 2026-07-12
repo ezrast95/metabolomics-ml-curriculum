@@ -1,0 +1,11 @@
+[project]
+name = "dreams-env"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "dreams",
+]
+
+[tool.uv.sources]
+dreams = { git = "https://github.com/pluskal-lab/DreaMS.git" }
