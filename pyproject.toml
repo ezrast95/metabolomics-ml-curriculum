@@ -3,14 +3,22 @@ name = "metabolomics-ml-curriculum"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11,<3.12"
 dependencies = [
-    "datasets>=5.0.0",
-    "jupyter>=1.1.1",
-    "matplotlib>=3.10.9",
-    "numpy>=2.2.6",
-    "pandas>=2.3.3",
-    "rdkit>=2026.3.3",
-    "scikit-learn>=1.7.2",
-    "torch>=2.12.1",
+    "datasets",
+    "ijson",
+    "jupyter",
+    "massspecgym>=1.2.2",
+    "matchms",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "rdkit",
+    "scikit-learn",
+    "setuptools==75.8.0",
+    "torch",
+    "wandb",
 ]
+
+[tool.uv]
+override-dependencies = ["wandb>=0.18"]
