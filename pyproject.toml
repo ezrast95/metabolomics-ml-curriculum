@@ -15,6 +15,10 @@ dependencies = [
     "pandas",
     "rdkit",
     "scikit-learn",
+    "setuptools==75.8.0",
     "torch",
     "wandb",
 ]
+
+[tool.uv]
+override-dependencies = ["wandb>=0.18"]
