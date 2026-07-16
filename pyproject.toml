@@ -8,7 +8,7 @@ dependencies = [
     "datasets",
     "ijson",
     "jupyter",
-    "massspecgym>=1.2.2",
+    "massspecgym",
     "matchms",
     "matplotlib",
     "numpy",
@@ -22,3 +22,8 @@ dependencies = [
 
 [tool.uv]
 override-dependencies = ["wandb>=0.18"]
+
+[tool.uv.sources]
+# Pinned to the MassSpecGym v1.5 merge commit (feat/massspecgym-v1.5, merged 2026-05-08).
+# Never cut as a PyPI release; pinning an exact commit keeps it reproducible like a tag would.
+massspecgym = { git = "https://github.com/pluskal-lab/MassSpecGym.git", rev = "f259fe3780d5bd227fc6ece36ce6f397c2eef716" }

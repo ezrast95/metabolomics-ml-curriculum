@@ -30,6 +30,20 @@ Read `massspecgym/models/base.py` and `massspecgym/models/retrieval/base.py` dir
 `.venv/Lib/site-packages/massspecgym/`) before starting — they're short, and this section is about
 understanding that contract, not about the notebook explaining it for you.
 
+## MassSpecGym version in use
+
+`massspecgym` is pinned in `pyproject.toml` (`[tool.uv.sources]`) to a specific GitHub commit, not the
+PyPI release:
+
+```
+git+https://github.com/pluskal-lab/MassSpecGym.git@f259fe3780d5bd227fc6ece36ce6f397c2eef716
+```
+
+That commit is the merge of `feat/massspecgym-v1.5` (2026-05-08) — the code release accompanying the
+"MassSpecGym in the Wild" pitfalls paper (`papers/MassSpecGym v1.5 common pitfalls.pdf`). It was never
+published to PyPI (latest PyPI release is `1.3.1`, from March 2025, well before this work), so a pinned
+commit is the only way to get it reproducibly.
+
 ## Phases
 
 **Phase 0 — orientation**
